@@ -14,7 +14,32 @@ Database: N/A
 ## Directory Structure
 As this is a frontend project (built with Vite/React), a typical simplified structure would be:
 
-medcare-frontend/├── public/                # Static assets├── src/│   ├── assets/            # Images, fonts, etc.│   ├── components/        # Reusable UI components (e.g., shadcn-ui based, custom)│   │   └── ui/            # Base UI elements from shadcn-ui│   ├── contexts/          # React Context API for state management (if used)│   ├── hooks/             # Custom React hooks│   ├── layouts/           # Layout components (e.g., MainLayout, AuthLayout)│   ├── pages/             # Page-level components (e.g., HomePage, ProductPage, CartPage)│   ├── services/          # API call functions, utility services│   ├── styles/            # Global styles, Tailwind base/components/utilities│   ├── utils/             # Utility functions│   ├── App.tsx            # Main application component│   └── main.tsx           # Entry point of the application├── .env                   # Environment variables (if any, gitignored)├── .eslintrc.cjs          # ESLint configuration├── .gitignore             # Git ignore file├── index.html             # Main HTML file for Vite├── package.json           # Project dependencies and scripts├── postcss.config.js      # PostCSS configuration (for Tailwind)├── README.md              # This file├── tailwind.config.js     # Tailwind CSS configuration├── tsconfig.json          # TypeScript configuration├── tsconfig.node.json     # TypeScript configuration for Node└── vite.config.ts         # Vite configuration
+medcare-frontend/
+├── public/                # Static assets
+├── src/
+│   ├── assets/            # Images, fonts, etc.
+│   ├── components/        # Reusable UI components (e.g., shadcn-ui based, custom)
+│   │   └── ui/            # Base UI elements from shadcn-ui
+│   ├── contexts/          # React Context API for state management (if used)
+│   ├── hooks/             # Custom React hooks
+│   ├── layouts/           # Layout components (e.g., MainLayout, AuthLayout)
+│   ├── pages/             # Page-level components (e.g., HomePage, ProductPage, CartPage)
+│   ├── services/          # API call functions, utility services
+│   ├── styles/            # Global styles, Tailwind base/components/utilities
+│   ├── utils/             # Utility functions
+│   ├── App.tsx            # Main application component
+│   └── main.tsx           # Entry point of the application
+├── .env                   # Environment variables (if any, gitignored)
+├── .eslintrc.cjs          # ESLint configuration
+├── .gitignore             # Git ignore file
+├── index.html             # Main HTML file for Vite
+├── package.json           # Project dependencies and scripts
+├── postcss.config.js      # PostCSS configuration (for Tailwind)
+├── README.md              # This file
+├── tailwind.config.js     # Tailwind CSS configuration
+├── tsconfig.json          # TypeScript configuration
+├── tsconfig.node.json     # TypeScript configuration for Node
+└── vite.config.ts         # Vite configuration
 ## Video Walkthrough of the project
 *[Placeholder: Link to a 1-3 minute video walkthrough showcasing the application's features and user interface.]*
 
